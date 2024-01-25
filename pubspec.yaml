@@ -1,0 +1,48 @@
+name: lawod
+description: A new Flutter project.
+
+publish_to: 'none' # Prevents accidental publishing to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  image_picker: ^1.0.7
+  permission_handler: ^11.1.0
+  curved_navigation_bar: ^1.0.3
+  carousel_slider: ^4.2.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Specify the asset directory paths here
+  assets:
+    - assets/ # This includes everything in the assets directory
+    - assets/images/communitybtn.png
+    - assets/images/marketplacebtn.png
+    - assets/images/accountbtn.png
+    - assets/images/uploadPic.png
+    - assets/images/motorbike.png
+    - assets/images/orders.png
+    - assets/images/policy.png
+    - assets/images/help.png
+    - assets/images/accountInfo.png
+
+  # Define the font assets here
+  fonts:
+    - family: ProximaNova
+      fonts:
+        - asset: assets/fonts/ProximaNova-Regular.otf
+        - asset: assets/fonts/ProximaNova-Bold.otf
+          weight: 700
